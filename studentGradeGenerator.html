@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Generator</title>
+</head>
+<body>
+    <!-- --------------added styling on body----------- -->
+    <style>
+        body {
+            text-align: center;
+            background-color: whitesmoke;
+        }
+    </style>
+    <h1>Grade Generator</h1>
+    <!------------receiving the input------------ -->
+
+    <input type="number" id="num1" placeholder="Enter the total marks"/>
+
+    <button id="submitBtn" >Generate Grade</button>
+
+    <!-- -----Grade acquired----------- -->
+    <h4>Grade Acquired</h4>
+    <p id="answer"></p>
+    
+    <script>
+        const button = document.getElementById("submitBtn")
+
+        // ------------event listener----------
+
+        button.addEventListener("click", function(){
+            const num1 = parseFloat(document.getElementById("num1").value)
+            
+            if (num1>=0 && num1<40) {
+                grade = 'E';
+                document.getElementById("answer").innerText = grade
+            }
+
+            else if(num1>=40 && num1<=49){
+                grade = 'D';
+                document.getElementById("answer").innerText = grade
+            }
+            
+            else if(num1>49 && num1<=59){
+                grade = 'C';
+                document.getElementById("answer").innerText = grade
+            }
+
+            else if(num1>=60 && num1<=79){
+                grade = 'B';
+                document.getElementById("answer").innerText = grade
+            }
+
+            else if(num1>79 && num1<=100){
+                grade = 'A';
+                document.getElementById("answer").innerText = grade
+            }
+            
+            else{
+                grade = "Invalid number";
+                document.getElementById("answer").innerText = grade
+            }
+
+        })
+    </script>
+</body>
+</html>
