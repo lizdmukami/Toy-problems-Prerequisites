@@ -1,48 +1,64 @@
-# Week 1 Toy problems Prerequisites
-## Prerequisites: 
+# Project Title
 
-1. Create a repository on your GitHub account. 
+Simple overview of use/purpose.
 
-NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
+## Description
 
-2. Use JavaScript to wire down the solution.
+An in-depth paragraph about your project and overview of use.
 
-3. Push the solution to the above repository once done.
+## Getting Started
 
-4. Submit the repository link for grading.
+### Dependencies
 
-5. Ensure your repository has a well written README.
+* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* ex. Windows 10
 
-NOTE: You are required to complete ALL the challenges.
+### Installing
 
- 
+* How/where to download your program
+* Any modifications needed to be made to files/folders
 
-## Challenge 1: Student Grade Generator (Toy Problem)
+### Executing program
 
-Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
 
-        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+## Help
 
- 
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
 
-## Challenge 2: Speed Detector (Toy Problem)
+## Authors
 
-Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+Contributors names and contact info
 
-   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
 
- 
+## Version History
 
-## Challenge 3: Net Salary Calculator (Toy Problem)
+* 0.2
+    * Various bug fixes and optimizations
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
 
-Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
+## License
 
-NB: Use KRA, NHIF, and NSSF values provided in the link below.
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-- https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
+## Acknowledgments
 
- Links to an external site.-  Links to an external site.Links to an external site.
-
-- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [dbader](https://github.com/dbader/readme-template)
+* [zenorocha](https://gist.github.com/zenorocha/4526327)
+* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 
 
